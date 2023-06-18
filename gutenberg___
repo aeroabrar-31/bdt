@@ -1,0 +1,10 @@
+ http://www.gutenberg.org/cache/epub/4300/pg4300.txt
+
+
+Type the command:
+ hdfs dfs -mkdir /guteninput
+6. hdfs dfs -put /home/cloudera/gutenbergdata/pg4300.txt /guteninput/
+7. hadoop jar /home/cloudera/Wordcount.jar WordCount
+/guteninput/pg4300.txt /gutenoutput
+8. hdfs dfs -cat /gutenoutput/part-r-00000
+9. You can also use hdfs dfs -cat /gutenoutput/*
