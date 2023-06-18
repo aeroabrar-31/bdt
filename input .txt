@@ -1,0 +1,12 @@
+New Project -> Java project -> next -> Add External jars
+File System -> usr -> lib -> hadoop -> all jar files
+File System -> usr -> lib -> hadoop -> client -> all jar files
+copy code
+Rick click on proj -> Export -> java -> jar file -> browse -> cloudera-> give name as WordCount -> Finish
+Terminal
+ls
+pwd
+create a folder and file using mkdir and -touchz
+hadoop jar /home/cloudera/WordCount.jar  WordCount  /inputfolder/file.txt  /out1
+
+
