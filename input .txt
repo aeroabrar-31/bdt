@@ -7,6 +7,7 @@ Terminal
 ls
 pwd
 create a folder and file using mkdir and -touchz
-hadoop jar /home/cloudera/WordCount.jar  WordCount  /inputfolder/file.txt  /out1
+hadoop jar /home/cloudera/WordCount.jar  WordCount  /inputfolder/inputfile.txt  /outputfolder
+hdfs dfs -cat /outpufolder/part-r-0000
 
 
